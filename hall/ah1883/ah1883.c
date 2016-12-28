@@ -72,7 +72,7 @@ extern struct gpio_desc *gpio_to_desc(unsigned gpio);
 extern int gpiod_request(struct gpio_desc *desc, const char *label);
 struct gpio_desc *gpio_hall=NULL;
 
-
+//LiYeQiang
 static void ah1883_irq_work(struct work_struct *work)
 {
 
